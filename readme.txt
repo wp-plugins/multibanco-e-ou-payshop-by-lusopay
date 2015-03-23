@@ -1,6 +1,6 @@
 === Multibanco e / ou Payshop (by LUSOPAY) para WooCommerce ===
 Contributors: lusopay
-Tags: lusopay, multibanco
+Tags: lusopay, multibanco, payshop
 Requires at least: 3.9
 Tested up to: 3.9
 Stable tag: 4.0
@@ -28,4 +28,7 @@ This section describes how to install the plugin and get it working.
 = Como obtenho a chave? =
 
 Tem de ir a www.lusopay.com e inscrever-se e enviar um email para geral@lusopay.com para poder obter a chave de activacao.
-`<?php code(); // goes in backticks ?>`
+
+== Screenshots ==
+
+1. This screen shot description corresponds to Logo_Lusopay_MBePayshop125x80px.png.

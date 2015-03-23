@@ -2,14 +2,14 @@
 Contributors: lusopay
 Tags: lusopay, multibanco, payshop
 Requires at least: 3.9
-Tested up to: 3.9
+Tested up to: 4.1.1
 Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Método de pagamento que permite fazer pagamentos por Multibanco e / ou Payshop.
 
-== Description  ==
+
 
 Permite a emissão de Referências Multibanco e / ou Payshop na sua loja online, que podem ser pagas na rede Multibanco ou Homebanking, e no caso do Payshop nos respetivos agentes.
 

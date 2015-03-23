@@ -8,10 +8,10 @@ Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Método de pagamento que permite fazer pagamentos por Multibanco e / ou Payshop.
+
 
 == Description  ==
-
+Método de pagamento que permite fazer pagamentos por Multibanco e / ou Payshop.
 Permite a emissão de Referências Multibanco e / ou Payshop na sua loja online, que podem ser pagas na rede Multibanco ou Homebanking, e no caso do Payshop nos respetivos agentes.
 
 == Installation ==

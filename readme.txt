@@ -26,7 +26,3 @@ Payment method that allows you to make payments by ATM and / or Payshop. Allows 
 = How i get the key? =
 
 You must go to www.lusopay.com and register and send an email to geral@lusopay.com order to obtain the activation key.
-
-== Screenshots ==
-
-1. Corresponde aos serviços que temos disponiveis Logo_Lusopay_MBePayshop125x80px.png.

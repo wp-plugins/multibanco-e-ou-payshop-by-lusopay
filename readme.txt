@@ -16,7 +16,7 @@ Permite a emissão de Referências Multibanco e / ou Payshop na sua loja online, q
 == Installation ==
 
 This section describes how to install the plugin and get it working.
-
+Método de pagamento que permite fazer pagamentos por Multibanco e / ou Payshop.
 
 1. Ir a "Plugins" - > "Adicionar Novo" e pesquisar por Lusopay
 2. Active o plugin atraves do menu "Plugins" no Wordpress

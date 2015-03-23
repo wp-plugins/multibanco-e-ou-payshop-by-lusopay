@@ -7,12 +7,9 @@ Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-== Description ==
-
 Método de pagamento que permite fazer pagamentos por Multibanco e / ou Payshop.
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
-
+== Description ==
 
 Permite a emissão de Referências Multibanco e / ou Payshop na sua loja online, que podem ser pagas na rede Multibanco ou Homebanking, e no caso do Payshop nos respetivos agentes.
 
@@ -34,4 +31,4 @@ Tem de ir a www.lusopay.com e inscrever-se e enviar um email para geral@lusopay.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to Logo_Lusopay_MBePayshop125x80px.png.
+1. Corresponde aos serviços que temos disponiveis Logo_Lusopay_MBePayshop125x80px.png.

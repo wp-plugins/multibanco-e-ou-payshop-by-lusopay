@@ -28,3 +28,4 @@ This section describes how to install the plugin and get it working.
 = Como obtenho a chave? =
 
 Tem de ir a www.lusopay.com e inscrever-se e enviar um email para geral@lusopay.com para poder obter a chave de activacao.
+`<?php code(); // goes in backticks ?>`

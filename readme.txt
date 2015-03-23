@@ -3,29 +3,29 @@ Contributors: lusopay
 Tags: lusopay, multibanco, payshop
 Requires at least: 3.9
 Tested up to: 4.1.1
-Stable tag: 4.0
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Método de pagamento que permite fazer pagamentos por Multibanco e / ou Payshop.
+Payment method that allows you to make payments by ATM and / or Payshop.
 
 == Description ==
 
-Permite a emissão de Referências Multibanco e / ou Payshop na sua loja online, que podem ser pagas na rede Multibanco ou Homebanking, e no caso do Payshop nos respetivos agentes.
+Payment method that allows you to make payments by ATM and / or Payshop. Allows the issuance of references ATM and / or Payshop in your online store, which can be paid in ATM or home banking network, and in the case of Payshop in the respective agents.
 
 == Installation ==
 
 
-1. Ir a "Plugins" - > "Adicionar Novo" e pesquisar por Lusopay
-2. Active o plugin atraves do menu "Plugins" no Wordpress
-3. Ir "Woocomerce" -> "Settings" e escolher a aba "Checkout" clicar no link "Lusopaygateway" e introduzir a chave e o nif.
+1. Go to "Plugins" - > "Add New" and search by Lusopay
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Go to "Woocomerce" -> "Settings" tab and choose the "Checkout" click the link "Lusopaygateway" and enter the key and the nif provided by LUSOPAY.
 
 
 == Frequently Asked Questions ==
 
-= Como obtenho a chave? =
+= How i get the key? =
 
-Tem de ir a www.lusopay.com e inscrever-se e enviar um email para geral@lusopay.com para poder obter a chave de activacao.
+You must go to www.lusopay.com and register and send an email to geral@lusopay.com order to obtain the activation key.
 
 == Screenshots ==
 

@@ -1,6 +1,6 @@
-=== Lusopaygateway ===
+=== Multibanco e / ou Payshop (by LUSOPAY) ===
 
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors:
 Tags: lusopay, multibanco
 Requires at least: 3.9
 Tested up to: 3.9

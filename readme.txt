@@ -7,7 +7,8 @@ Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Método de pagamento que permite fazer pagamentos por Multibanco e / ou Payshop.
+Simple Twitter Connect is a series of plugins that let you add any sort of Twitter
+
 
 == Description ==
 

@@ -11,7 +11,7 @@ Portuguese payment method that allows you to make payments by ATM and / or Paysh
 
 == Description ==
 
-Payment method that allows you to make payments by ATM and / or Payshop. Allows the issuance of references ATM and / or Payshop in your online store, which can be paid in ATM or home banking network, and in the case of Payshop in the respective agents (only in Portugal).
+Payment method that allows you to make payments by ATM and / or Payshop. Allows the issuance of references ATM and / or Payshop in your online store, which can be paid in ATM or home banking network, and in the case of Payshop in the respective agents (Portugal only).
 
 == Installation ==
 

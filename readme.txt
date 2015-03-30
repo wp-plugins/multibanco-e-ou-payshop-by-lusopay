@@ -1,9 +1,9 @@
 === Multibanco e / ou Payshop (by LUSOPAY) para WooCommerce ===
 Contributors: lusopay
-Tags: lusopay, multibanco, payshop
+Tags: lusopay, multibanco, payshop, e-commerce, ecommerce, woocommerce, payment
 Requires at least: 3.9
 Tested up to: 4.1.1
-Stable tag: 4.0
+Stable tag: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

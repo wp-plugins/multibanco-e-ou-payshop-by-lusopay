@@ -7,11 +7,11 @@ Stable tag: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Portuguese payment method that allows you to make payments by ATM and / or Payshop.
+Portuguese payment method that allows you to make payments by Multibanco (ATM) and / or Payshop.
 
 == Description ==
 
-Payment method that allows you to make payments by ATM and / or Payshop. Allows the issuance of references ATM and / or Payshop in your online store, which can be paid in ATM or home banking network, and in the case of Payshop in the respective agents (Portugal only).
+Payment method that allows you to make payments by Multibanco (ATM) and / or Payshop. Allows the issuance of references Multibanco (ATM) and / or Payshop in your online store, which can be paid in Multibanco or home banking network, and in the case of Payshop in the respective agents (Portugal only).
 
 == Installation ==
 

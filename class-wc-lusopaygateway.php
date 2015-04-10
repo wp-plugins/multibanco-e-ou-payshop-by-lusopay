@@ -79,7 +79,7 @@ function woocommerce_lusopaygateway_init() {
 								'title' => __( 'Title', 'woocommerce' ), 
 								'type' => 'text', 
 								'description' => __( 'Controla o t&iacute;tulo que utilizador vai visualizar durante o checkout.', 'woocommerce' ), 
-								'default' => __( 'Pagamento por Multibanco e / ou Payshop (by LUSOPAY)', 'woocommerce' )
+								'default' => __( 'Multibanco e / ou Payshop', 'woocommerce' )
 							),
 				'description' => array(
 								'title' => __( 'Mensagem para o Cliente', 'woocommerce' ), 
@@ -106,7 +106,7 @@ function woocommerce_lusopaygateway_init() {
 		public function admin_options() {
 			?>
 			<img src="<?php echo WP_PLUGIN_URL . "/" . plugin_basename( dirname(__FILE__)) . '/imagens/Logo_Lusopay_256x85px.png' ?>" />
-			<h3><?php _e('Pagamento por Multibanco e / ou Payshop', 'woothemes'); ?></h3>
+			<h3><?php _e('Multibanco e / ou Payshop', 'woothemes'); ?></h3>
 			<p><?php _e('Permite a emiss&atilde;o de Refer&ecirc;ncias Multibanco e / ou Payshop na sua loja online, que podem ser pagas na rede Multibanco ou Homebanking, e no caso Payshop nos respetivos agentes.', 'woothemes'); ?></p>
 			<table class="form-table">
 			<?php

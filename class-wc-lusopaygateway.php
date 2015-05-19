@@ -263,8 +263,8 @@ function woocommerce_lusopaygateway_init() {
 			//Apenas sao considerados os 4 caracteres mais a direita do order_id
 			//$order_id = substr($order_id, (strlen($order_id) - 4), strlen($order_id));
 
-			if ($order_value < 2){
-			echo "Lamentamos mas � imposs�vel gerar uma refer�ncia MB para valores inferiores a 2 Euro";
+			if ($order_value < 1.20){
+			echo "Lamentamos mas � imposs�vel gerar uma refer�ncia MB para valores inferiores a 1.20 Euro";
 			return;
 			}
 			

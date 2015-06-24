@@ -13,7 +13,7 @@ Portuguese payment method that allows you to make payments by Multibanco (ATM) a
 
 English below
 
-(PORTUGUÊS)
+(PORTUGU&Ecirc;S)
 Método de pagamento que permite efetuar pagamentos Multibanco e / ou Payshop. Permite gerar referências Multibanco e / ou Payshop na sua loja online, pode ser paga numa Caixa Automática ou no home banking, e no caso da Payshop nos repectivos agentes. 
 
 (ENGILSH)

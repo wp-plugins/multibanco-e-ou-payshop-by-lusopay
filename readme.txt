@@ -53,7 +53,7 @@ O sistema callback &eacute; um tipo de notifica&ccedil;&otilde;es dos pagamentos
 
 = Porque &eacute; que o callback n&atilde;o funciona? =
 
-Se j&aacute; comunicou para nós a informar para activar o callback, talvez tenha que ir a "Op&ccedil;&otilde;es" escolher "Liga&ccedil;&otilde;es permanentes" e mudar a op&ccedil;&otilde;es para predifini&ccedil;&atilde;o.
+Se j&aacute; comunicou para n&oacute;s a informar para activar o callback, talvez tenha que ir a "Op&ccedil;&otilde;es" escolher "Liga&ccedil;&otilde;es permanentes" e mudar a op&ccedil;&otilde;es para predifini&ccedil;&atilde;o.
 
 (ENGLISH)
 = How i get the key? =
@@ -77,9 +77,9 @@ English below
 = 1.2 =
 
 - Implementa&ccedil;&atilde;o do sistema callback (tipo notifica&ccedil;&atilde;o de pagamento).
-- O estado muda autom&aacute;ticamente após um pagamento.
+- O estado muda autom&aacute;ticamente ap&oacute;s um pagamento.
 - Reduz o stock automaticamente quando recebe um pagamento. (&Eacute; necess&aacute;rio ter o callback activo)
-- &Eacute; possível definir um valor mínimo para que apare&ccedil;a o m&eacute;todo de pagamento. (opcional)
+- &Eacute; poss&iacute;vel definir um valor m&iacute;nimo para que apare&ccedil;a o m&eacute;todo de pagamento. (opcional)
 - E definir um limite para o qual o m&eacute;todo de pagamento apare&ccedil;a.
 
 = 1.1.0 =

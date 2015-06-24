@@ -14,7 +14,7 @@ Portuguese payment method that allows you to make payments by Multibanco (ATM) a
 English below
 
 (PORTUGU&Ecirc;S)
-Método de pagamento que permite efetuar pagamentos Multibanco e / ou Payshop. Permite gerar referências Multibanco e / ou Payshop na sua loja online, pode ser paga numa Caixa Automática ou no home banking, e no caso da Payshop nos repectivos agentes. 
+M&eacute;todo de pagamento que permite efetuar pagamentos Multibanco e / ou Payshop. Permite gerar refer&ecirc;ncias Multibanco e / ou Payshop na sua loja online, pode ser paga numa Caixa Autom&aacute;tica ou no home banking, e no caso da Payshop nos repectivos agentes. 
 
 (ENGILSH)
 Payment method that allows you to make payments by Multibanco (ATM) and / or Payshop. Allows the issuance of references Multibanco (ATM) and / or Payshop in your online store, which can be paid in Multibanco or home banking network, and in the case of Payshop in the respective agents (Portugal only).
@@ -23,11 +23,11 @@ Payment method that allows you to make payments by Multibanco (ATM) and / or Pay
 
 English below
 
-(PORTUGUÊS)
+(PORTUGU&Ecirc;S)
 1. Vai a "Plugins" - > "Adicionar Novo" e procura por Lusopay.
 2. Ative o plugin.
-3. Vai a "Woocommerce"->"Configurações" escolhe a aba "Finalizar compras" clica na hiperligação "Pagamentos por Multibanco e / ou Payshop (LUSOPAY)" e coloque a chave e o nif fornecidos pela LUSOPAY.
-4. Tenha a certeza que enviou o emial a pedir a activação do sistema callback para geral@lusopay.com (Instruções na página de configurações do plugin).
+3. Vai a "Woocommerce"->"Configura&ccedil;&otilde;es" escolhe a aba "Finalizar compras" clica na hiperliga&ccedil;&atilde;o "Pagamentos por Multibanco e / ou Payshop (LUSOPAY)" e coloque a chave e o nif fornecidos pela LUSOPAY.
+4. Tenha a certeza que enviou o email a pedir a activa&ccedil;&atilde;o do sistema callback para geral@lusopay.com (Instru&ccedil;&otilde;es na p&aacute;gina de configura&ccedil;&otilde;es do plugin).
 
 (ENGLISH)
 1. Go to "Plugins" - > "Add New" and search by Lusopay.
@@ -40,20 +40,20 @@ English below
 
 English below
 
-(PORTUGUÊS)
-= Como é que obtenho a chave de activação? =
+(PORTUGU&Ecirc;S)
+= Como &eacute; que obtenho a chave de activa&ccedil;&atilde;o? =
 
-Tem que ir a https://www.lusopay.com e registar-se e enviar um email a pedir o serviço que quer para depois enviarmos a chave.
+Tem que ir a https://www.lusopay.com e registar-se e enviar um email a pedir o servi&ccedil;o que quer para depois enviarmos a chave.
 
-= O que é o sistema callback? =
+= O que &eacute; o sistema callback? =
 
-O sistema callback é um tipo de notificações dos pagamentos através de um POST, quando o cliente pagar uma encomenda através das referências Multibanco ou Payshop a loja vai automaticamente mudar o estado da encomenda para 
+O sistema callback &eacute; um tipo de notifica&ccedil;&otilde;es dos pagamentos atrav&eacute;s de um POST, quando o cliente pagar uma encomenda atrav&eacute;s das refer&ecirc;ncias Multibanco ou Payshop a loja vai automaticamente mudar o estado da encomenda para 
 
-"Confirmado pagamento" e enviar um email dessa confirmação. Com isso o dono da loja não vai ter que estar sempre a verificar a caixa de emails.
+"Confirmado pagamento" e enviar um email dessa confirma&ccedil;&atilde;o. Com isso o dono da loja n&atilde;o vai ter que estar sempre a verificar a caixa de emails.
 
-= Porque é que o callback não funciona? =
+= Porque &eacute; que o callback n&atilde;o funciona? =
 
-Se já comunicou para nós a informar para activar o callback, talvez tenha que ir a "Opções" escolher "Ligações permanentes" e mudar a opções para predifinição.
+Se j&aacute; comunicou para nós a informar para activar o callback, talvez tenha que ir a "Op&ccedil;&otilde;es" escolher "Liga&ccedil;&otilde;es permanentes" e mudar a op&ccedil;&otilde;es para predifini&ccedil;&atilde;o.
 
 (ENGLISH)
 = How i get the key? =
@@ -73,18 +73,18 @@ If you already send the email for tell us to activate, maybe you have to go menu
 
 English below
 
-(PORTUGUÊS)
+(PORTUGU&Ecirc;S)
 = 1.2 =
 
-- Implementação do sistema callback (tipo notificação de pagamento).
-- O estado muda automáticamente após um pagamento.
-- Reduz o stock automaticamente quando recebe um pagamento. (É necessário ter o callback activo)
-- É possível definir um valor mínimo para que apareça o método de pagamento. (opcional)
-- E definir um limite para o qual o método de pagamento apareça.
+- Implementa&ccedil;&atilde;o do sistema callback (tipo notifica&ccedil;&atilde;o de pagamento).
+- O estado muda autom&aacute;ticamente após um pagamento.
+- Reduz o stock automaticamente quando recebe um pagamento. (&Eacute; necess&aacute;rio ter o callback activo)
+- &Eacute; possível definir um valor mínimo para que apare&ccedil;a o m&eacute;todo de pagamento. (opcional)
+- E definir um limite para o qual o m&eacute;todo de pagamento apare&ccedil;a.
 
 = 1.1.0 =
 
-- Publicação do plugin
+- Publica&ccedil;&atilde;o do plugin
 
 (ENGLISH)
 
@@ -104,8 +104,8 @@ English below
 
 English below
 
-(PORTUGUÊS)
-- Implementação do sistema callback. (Tipo de notificação do pagamento)
+(PORTUGU&Ecirc;S)
+- Implementa&ccedil;&atilde;o do sistema callback. (Tipo de notifica&ccedil;&atilde;o do pagamento)
 
 (ENGLISH)
 - Implementation of the callback service. (Payment notification type) 

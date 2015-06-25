@@ -3,7 +3,7 @@
 * Plugin Name: WooCommerce LusopayGateway
 * Plugin URI: https://www.lusopay.com
 * Description: Plugin oficial da LUSOPAY para WooCommerce para Pagamentos por Multibanco e / ou Payshop. Para o poder utilizar tem de efetuar um registo em <a href="https://www.lusopay.com" target="_blank">LUSOPAY</a> para poder utilizar este plugin. Para mais informa&ccedil;&otilde;es de como aderir <a href="https://www.lusopay.com" target="_blank">clique aqui</a>.
-* Version: 1.2
+* Version: 1.2.1
 * Author: LUSOPAY
 * Author URI: https://www.lusopay.com
 */

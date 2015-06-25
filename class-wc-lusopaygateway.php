@@ -97,8 +97,7 @@ if (in_array('woocommerce/woocommerce.php', (array) get_option('active_plugins')
 						
 						
 					}else{
-						echo "else";
-						$sql = 'CREATE TABLE IF NOT EXISTS '.$table_name.' (id_order int, refMB VARCHAR(9), refPS VARCHAR(13), value VARCHAR(10), status VARCHAR(10));';
+						$sql = "CREATE TABLE IF NOT EXISTS ".$table_name." (id_order int, refMB VARCHAR(9), refPS VARCHAR(13), value VARCHAR(10), status VARCHAR(10));";
 						//require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
 						//dbDelta( $sql );
 					}

@@ -48,7 +48,7 @@ if (in_array('woocommerce/woocommerce.php', (array) get_option('active_plugins')
 					if ($this->debug) $this->log = new WC_Logger();
 					$this->debug_email = $this->settings['debug_email'];
 					
-					$this->version = '1.2';
+					$this->version = '1.2.1';
 					$this->upgrade();
 
 					//load_plugin_textdomain('lusopaygateway', false, dirname(plugin_basename(__FILE__)) . '/lang/');

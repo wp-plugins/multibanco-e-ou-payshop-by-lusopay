@@ -76,7 +76,7 @@ English below
 (PORTUGU&Ecirc;S)
 = 1.2.1 =
 
-- A imagem no checkout não aparecia.
+- A imagem no checkout n&atilde;o aparecia.
 
 = 1.2 =
 

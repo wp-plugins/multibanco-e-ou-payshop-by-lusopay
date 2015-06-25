@@ -53,7 +53,7 @@ if (in_array('woocommerce/woocommerce.php', (array) get_option('active_plugins')
 
 					//load_plugin_textdomain('lusopaygateway', false, dirname(plugin_basename(__FILE__)) . '/lang/');
 					//$this->icon = WP_PLUGIN_URL."/".plugin_basename( dirname(__FILE__)) . '/images/icon.png';
-					$this->icon = plugins_url('images/Logo_Lusopay_MBePayshop52x33px.png', __FILE__);
+					$this->icon = plugins_url('imagens/Logo_Lusopay_MBePayshop52x33px.png', __FILE__);
 					$this->has_fields = false;
 					$this->method_title = __('Pagamentos por Multibanco e / ou Payshop (LUSOPAY)', 'lusopaygateway');
 					$this->secret_key = $this->get_option('secret_key');

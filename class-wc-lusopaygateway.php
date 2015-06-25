@@ -86,12 +86,12 @@ if (in_array('woocommerce/woocommerce.php', (array) get_option('active_plugins')
 
 					$table_name = $wpdb->prefix . "magnimeiosreferences";
 					
-					$res = $wpdb->get_results("SHOW TABLES LIKE '".$table_name."'");
-					
+					$res = $wpdb->get_results("SHOW TABLES LIKE ".$table_name);
+					//var_dump($res);
 					$charset_collate = $wpdb->get_charset_collate();
 					//var_dump($res);
 					
-					if(!is_null($res)){
+					if(!empty($res)){
 						$sql = $wpdb->query("ALTER TABLE ".$table_name." ADD COLUMN status VARCHAR(10);");
 						
 						

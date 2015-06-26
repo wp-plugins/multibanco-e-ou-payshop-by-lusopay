@@ -14,10 +14,10 @@ Portuguese payment method that allows you to make payments by Multibanco (ATM) a
 English below
 
 (PORTUGU&Ecirc;S)
-M&eacute;todo de pagamento que permite efetuar pagamentos Multibanco e / ou Payshop. Permite gerar refer&ecirc;ncias Multibanco e / ou Payshop na sua loja online, pode ser paga numa Caixa Autom&aacute;tica ou no home banking, e no caso da Payshop nos repectivos agentes. 
+M&eacute;todo de pagamento que permite efetuar pagamentos Multibanco e / ou Payshop. Permite gerar refer&ecirc;ncias Multibanco e / ou Payshop na sua loja online, pode ser paga numa Caixa Autom&aacute;tica ou no home banking, e no caso da Payshop nos repectivos agentes. Este plugin permite, de forma autom&aacute;tica e em tempo real, alterar os estados das encomendas para pagos no preciso momento em que o cliente paga a refer&ecirc;ncia, bem como actualiza automaticamente o stock dos produtos. Desta forma, com este plugin, para al&eacute;m de permitir enviar os produtos de forma mais c&eacute;lere, reduz o trabalho administrativo que tem para gerir o seu neg&oacute;cio, ao mesmo tempo que permite aos seus clientes pagar de uma forma segura, confort&aacute;vel e com a qual est&atilde;o familiarizados.  
 
 (ENGILSH)
-Payment method that allows you to make payments by Multibanco (ATM) and / or Payshop. Allows the issuance of references Multibanco (ATM) and / or Payshop in your online store, which can be paid in Multibanco or home banking network, and in the case of Payshop in the respective agents (Portugal only).
+Payment method that allows you to make payments by Multibanco (ATM) and / or Payshop. Allows the issuance of references Multibanco (ATM) and / or Payshop in your online store, which can be paid in Multibanco or home banking network, and in the case of Payshop in the respective agents. This plugin, automatically and in real time, changes the status of orders to paid in the right moment of the payment made by the customer. At the same time it's changes the stock of products. This way, with this plugin, you can send your orders faster than usual, with less administrative work to manage your business and, at the same time, allow your customers to pay in a safe and confortably way.  
 
 == Installation ==
 
@@ -32,8 +32,8 @@ English below
 (ENGLISH)
 1. Go to "Plugins" - > "Add New" and search by Lusopay.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to "Woocomerce" -> "Settings" tab and choose the "Checkout" click the link "Pagamentos por Multibanco e / ou Payshop (LUSOPAY)" and enter the key and the nif provided by LUSOPAY.
-4. Make sure was sent the email with url callback to geral@lusopay.com for activate.
+3. Go to "Woocomerce" -> "Settings" tab and choose the "Checkout". Click the link "Pagamentos por Multibanco e / ou Payshop (LUSOPAY)" and enter the key and the nif provided by LUSOPAY.
+4. Make sure that you sent an email with url callback to geral@lusopay.com to allow us to activate callback system.
 
 
 == Frequently Asked Questions ==
@@ -56,17 +56,17 @@ O sistema callback &eacute; um tipo de notifica&ccedil;&otilde;es dos pagamentos
 Se j&aacute; comunicou para n&oacute;s a informar para activar o callback, talvez tenha que ir a "Op&ccedil;&otilde;es" escolher "Liga&ccedil;&otilde;es permanentes" e mudar a op&ccedil;&otilde;es para predifini&ccedil;&atilde;o.
 
 (ENGLISH)
-= How i get the key? =
+= How do I get the key? =
 
-You must go to https://www.lusopay.com and register and send an email to geral@lusopay.com order to obtain the activation key.
+You must go to https://www.lusopay.com, register and send an email to geral@lusopay.com in order to obtain the activation key.
 
 = What is callback? =
 
-Callback is a payment notification type trough a simple POST, when a client pay an order by Multibanco (ATM) or Payshop references the store updates automatically the order state to "Payment Confirmed" and sends an email his confirmation. Also the store owner doesn't need check the emails boxes to see if the client payed.
+Callback is a payment notification type through a simple POST, when a client pays an order by Multibanco (ATM) or Payshop references the online store updates automatically the order state to "Confirmado pagamento" (that means Payment Confirmed) and sends an email informing this status change. Also the store owner doesn't need to check his email boxes to see if the client paid.
 
-= Why callback don't work? =
+= Why callback doesn't work? =
 
-If you already send the email for tell us to activate, maybe you have to go menu "Settings" choose "Permalink" and change to "default" option and save.
+If you already sent the email to tell us to activate callback system, probably you will need to go to menu "Settings" and choose "Permalink" to change it to "default" option and save.
 
 
 == Changelog ==
@@ -98,11 +98,11 @@ English below
 
 = 1.2 =
 
-- Implementation of the callback service.
+- Implementation of the callback system.
 - Status of order change automatically when the store receives the payment.
 - Reduce stock automatically when receives the payment. (Must have that callback system activated)
-- It's possible define the minimal value you want show the payment method. (optional)
-- And limit value you want to show the payment method. (optional)
+- It's possible to specify the minimum amount of the order to show the payment method. (optional)
+- And limit the maximum amount of the order to show the payment method. (optional)
 
 = 1.1.0 =
 

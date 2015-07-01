@@ -705,29 +705,36 @@ if($refs[2] != -1){
 
 $refs[2] = substr($refs[2],0,3).' '.substr($refs[2],3,3).' '.substr($refs[2],6,3);
 
-$tabelaMulti = '<table cellpadding="3" width="400px" cellspacing="0" style="margin-top: 10px;border: 1px solid #dcdcdc" align="center">';
+$tabelaMulti = '<table class="lusopay_table1" cellpadding="3" width="400px" cellspacing="0" style="margin-top: 10px;border: 1px solid #dcdcdc" align="center">';
+$tabelaMulti .= "	<tr class='lusopay_thead'>";
+$tabelaMulti .=	'		<td class="lusopay_thead" style="font-size: x-small; border-top: 0px; border-left: 0px; border-right: 0px; border-bottom: 1px solid #dcdcdc; background-color: #dcdcdc; color: black" colspan="3"><center>Pagamento por Multibanco (by LUSOPAY)</center></td>';
+$tabelaMulti .= "	</tr>";
+
 $tabelaMulti .= "	<tr>";
-$tabelaMulti .=	'		<td style="font-size: x-small; border-top: 0px; border-left: 0px; border-right: 0px; border-bottom: 1px solid #dcdcdc; background-color: #dcdcdc; color: black" colspan="3"><center>Pagamento por Multibanco (by LUSOPAY)</center></td>';
+$tabelaMulti .= '		<td style="font-size: x-small; font-weight:bold; text-align:left">&nbsp;</td>';
+$tabelaMulti .= '		<td style="font-size: x-small; text-align:left">&nbsp;</td>';
+$tabelaMulti .= '		<td style="font-size: x-small; text-align:left">&nbsp;</td>';
+$tabelaMulti .= "	</tr>";
+
+$tabelaMulti .= "	<tr>";
+$tabelaMulti .=	'		<td rowspan="4"><div align="center"><img class="lusopay_logo" src="https://www.lusopay.com/App_Files/cms/documents/images/Logo_Lusopay_MB125x80px.png" alt=""/></div></td>';
+$tabelaMulti .=	'		<td class="lusopay_fields" style="font-size: x-small; font-weight:bold; text-align:left">Entidade:</td>';
+$tabelaMulti .=	'		<td class="lusopay_values" style="font-size: x-small; text-align:left">11024</td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "	<tr>";
-$tabelaMulti .=	'		<td rowspan="4"><div align="center"><img src="https://www.lusopay.com/App_Files/cms/documents/images/Logo_Lusopay_MB125x80px.png" alt=""/></div></td>';
-$tabelaMulti .=	'		<td style="font-size: x-small; font-weight:bold; text-align:left">Entidade:</td>';
-$tabelaMulti .=	'		<td style="font-size: x-small; text-align:left">11024</td>';
+$tabelaMulti .= '	<td class="lusopay_fields" style="font-size: x-small; font-weight:bold; text-align:left">Refer&ecirc;ncia:</td>';
+$tabelaMulti .=	'		<td class="lusopay_values" style="font-size: x-small; text-align:left">'. $refs[2].'</td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "	<tr>";
-$tabelaMulti .= '	<td style="font-size: x-small; font-weight:bold; text-align:left">Refer&ecirc;ncia:</td>';
-$tabelaMulti .=	'		<td style="font-size: x-small; text-align:left">'. $refs[2].'</td>';
-$tabelaMulti .= "	</tr>";
-$tabelaMulti .= "	<tr>";
-$tabelaMulti .=	'		<td style="font-size: x-small; font-weight:bold; text-align:left">Valor:</td>';
-$tabelaMulti .=	'		<td style="font-size: x-small; text-align:left">'.number_format($order_value, 2,',', ' ').'&nbsp;&euro;</td>';
+$tabelaMulti .=	'		<td class="lusopay_fields" style="font-size: x-small; font-weight:bold; text-align:left">Valor:</td>';
+$tabelaMulti .=	'		<td class="lusopay_values" style="font-size: x-small; text-align:left">'.number_format($order_value, 2,',', ' ').'&nbsp;&euro;</td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "	<tr>";
 $tabelaMulti .= '		<td style="font-size: x-small; font-weight:bold; text-align:left">&nbsp;</td>';
 $tabelaMulti .= '		<td style="font-size: x-small; text-align:left">&nbsp;</td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "	<tr>";
-$tabelaMulti .=	'		<td style="font-size: xx-small;border-top: 1px solid #dcdcdc; border-left: 0px; border-right: 0px; border-bottom: 0px; background-color: #dcdcdc; color: black" colspan="3"><center>O tal&atilde;o emitido pela caixa autom&aacute;tica faz prova de pagamento. Conserve-o.</center></td>';
+$tabelaMulti .=	'		<td class="lusopay_tfooter" style="font-size: xx-small;border-top: 1px solid #dcdcdc; border-left: 0px; border-right: 0px; border-bottom: 0px; background-color: #dcdcdc; color: black" colspan="3"><center>O tal&atilde;o emitido pela caixa autom&aacute;tica faz prova de pagamento. Conserve-o.</center></td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "</table>";
 }
@@ -736,27 +743,28 @@ if($refs[1] != -1){
 
 $refs[1] = substr($refs[1],0,3).' '.substr($refs[1],3,3).' '.substr($refs[1],6,3).' '.substr($refs[1],9,3).' '.substr($refs[1],12,1);
 
-$tabelaMulti .= '<table cellpadding="3" width="400px" cellspacing="0" style="margin-top: 10px;border: 1px solid #dcdcdc" align="center">';
-$tabelaMulti .= 	"<tr>";
+$tabelaMulti .= '<table class="lusopay_table2" cellpadding="3" width="400px" cellspacing="0" style="margin-top: 10px;border: 1px solid #dcdcdc" align="center">';
+$tabelaMulti .= 	"<tr class='lusopay_thead'>";
 $tabelaMulti .=	'		<td style="font-size: x-small; border-top: 0px; border-left: 0px; border-right: 0px; border-bottom: 1px solid #dcdcdc; background-color: #dcdcdc; color: black" colspan="3"><center>Pagamento por Payshop (by LUSOPAY)</center></td>';
 $tabelaMulti .= "	</tr>";
+
 $tabelaMulti .= "	<tr>";
-$tabelaMulti .=	'		<td rowspan="4"><div align="center"><img src="https://www.lusopay.com/App_Files/cms/documents/images/Logo_Lusopay_Payshop125x80px.png" alt=""/></div></td>';
+$tabelaMulti .=	'		<td rowspan="4"><div align="center"><img class="lusopay_logo" src="https://www.lusopay.com/App_Files/cms/documents/images/Logo_Lusopay_Payshop125x80px.png" alt=""/></div></td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "	<tr>";
-$tabelaMulti .=	'		<td style="font-size: x-small; font-weight:bold; text-align:left">Refer&ecirc;ncia:</td>';
-$tabelaMulti .=	'		<td style="font-size: x-small; text-align:left">'. $refs[1].'</td>';
+$tabelaMulti .=	'		<td class="lusopay_fields" style="font-size: x-small; font-weight:bold; text-align:left">Refer&ecirc;ncia:</td>';
+$tabelaMulti .=	'		<td class="lusopay_values" style="font-size: x-small; text-align:left">'. $refs[1].'</td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "	<tr>";
-$tabelaMulti .=	'		<td style="font-size: x-small; font-weight:bold; text-align:left">Valor:</td>';
-$tabelaMulti .=	'		<td style="font-size: x-small; text-align:left">'.number_format($order_value, 2,',', ' ').'&nbsp;&euro;</td>';
+$tabelaMulti .=	'		<td class="lusopay_fields" style="font-size: x-small; font-weight:bold; text-align:left">Valor:</td>';
+$tabelaMulti .=	'		<td class="lusopay_values" style="font-size: x-small; text-align:left">'.number_format($order_value, 2,',', ' ').'&nbsp;&euro;</td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "	<tr>";
 $tabelaMulti .= '		<td style="font-size: x-small; font-weight:bold; text-align:left">&nbsp;</td>';
 $tabelaMulti .= '		<td style="font-size: x-small; text-align:left">&nbsp;</td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= "	<tr>";
-$tabelaMulti .=	'		<td style="font-size: xx-small;border-top: 1px solid #dcdcdc; border-left: 0px; border-right: 0px; border-bottom: 0px; background-color: #dcdcdc; color: black" colspan="3"><center>O tal&atilde;o emitido faz prova de pagamento. Conserve-o.</center></td>';
+$tabelaMulti .=	'		<td class="lusopay_tfooter" style="font-size: xx-small;border-top: 1px solid #dcdcdc; border-left: 0px; border-right: 0px; border-bottom: 0px; background-color: #dcdcdc; color: black" colspan="3"><center>O tal&atilde;o emitido faz prova de pagamento. Conserve-o.</center></td>';
 $tabelaMulti .= "	</tr>";
 $tabelaMulti .= '</table>';
 }

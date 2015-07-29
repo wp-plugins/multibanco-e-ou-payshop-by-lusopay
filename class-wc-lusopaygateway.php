@@ -3,7 +3,7 @@
 * Plugin Name: WooCommerce LusopayGateway
 * Plugin URI: https://www.lusopay.com
 * Description: Plugin oficial da LUSOPAY para WooCommerce para Pagamentos por Multibanco e / ou Payshop. Para o poder utilizar tem de efetuar um registo em <a href="https://www.lusopay.com" target="_blank">LUSOPAY</a> para poder utilizar este plugin. Para mais informa&ccedil;&otilde;es de como aderir <a href="https://www.lusopay.com" target="_blank">clique aqui</a>.
-* Version: 1.2.1
+* Version: 1.2.2
 * Author: LUSOPAY
 * Author URI: https://www.lusopay.com
 */
@@ -48,7 +48,7 @@ if (in_array('woocommerce/woocommerce.php', (array) get_option('active_plugins')
 					if ($this->debug) $this->log = new WC_Logger();
 					$this->debug_email = $this->settings['debug_email'];
 					
-					$this->version = '1.2.1';
+					$this->version = '1.2.2';
 					$this->upgrade();
 
 					//load_plugin_textdomain('lusopaygateway', false, dirname(plugin_basename(__FILE__)) . '/lang/');
@@ -421,18 +421,19 @@ return $available_gateways;
 						$ent=trim($_GET['entidade']);
 						$valor=$_GET['valor'];
 						$val=str_replace(',','.', $valor);
+						$valor_final = number_format($val, 2);
 						$chave = trim($_GET['chave']);
 						
 						//wp_die($_SERVER['HTTP_HOST'].' '.$_SERVER['REQUEST_URI']);
 						
 						if ($chave==trim($this->secret_key) && $val>=1) {
 							if($ent=='11024'){
-								$order_id = $this->getLusopayReferencesMBOrderIdDb($ref, $val);
+								$order_id = $this->getLusopayReferencesMBOrderIdDb($ref, $valor_final);
 								
 							}
 							else if($ent=='10120'){
 								$refPS= $ent.$ref;
-								$order_id = $this->getLusopayReferencesPSOrderIdDb($refPS, $val);
+								$order_id = $this->getLusopayReferencesPSOrderIdDb($refPS, $valor_final);
 							}
 								
 							if($order_id!=0){

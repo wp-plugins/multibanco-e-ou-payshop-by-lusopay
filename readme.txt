@@ -2,8 +2,8 @@
 Contributors: lusopay
 Tags: lusopay, multibanco, payshop, e-commerce, ecommerce, woocommerce, payment
 Requires at least: 3.9
-Tested up to: 4.2.2
-Stable tag: 1.2.1
+Tested up to: 4.2.3
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,10 @@ If you already sent the email to tell us to activate callback system, probably y
 English below
 
 (PORTUGU&Ecirc;S)
+= 1.2.2 =
+
+- Correcção de um erro na função callback.
+
 = 1.2.1 =
 
 - A imagem no checkout n&atilde;o aparecia.
@@ -91,6 +95,9 @@ English below
 - Publica&ccedil;&atilde;o do plugin
 
 (ENGLISH)
+= 1.2.2 =
+
+- Fix callback function.
 
 = 1.2.1 =
 

@@ -76,7 +76,7 @@ English below
 (PORTUGU&Ecirc;S)
 = 1.2.2 =
 
-- Correcção de um erro na função callback.
+- Correc&ccedil;&atilde;o de um erro na fun&ccedil;&atilde;o callback.
 
 = 1.2.1 =
 
